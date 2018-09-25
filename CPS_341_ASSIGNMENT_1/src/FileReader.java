@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class FileReader {
 	  public static void main(String[] args) throws IOException {
-	        readFileContents("file.txt");
+	        System.out.println(readFileContents("file.txt"));;
 	    }
 	  
 	  public static String readFileContents(String file) {
